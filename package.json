@@ -1,0 +1,24 @@
+{
+  "name": "@bazel/bzlmod-version",
+  "version": "1.0.0",
+  "description": "Tools for dealing with the versioning format used in Bazel's bzlmod system",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "require": "./src/index.js"
+    },
+    "./bzlmod-version": {
+      "import": "./src/bzlmod-version.js",
+      "require": "./src/bzlmod-version.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["bazel"],
+  "author": "Chuck Grindel <chuck.grindel@gmail.com>",
+  "license": "APACHE-2.0"
+}

@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "lib": ["es2018"],
+    "target": "ES6",
+    "module": "ESNext"
+  }
+}
