@@ -1,4 +1,5 @@
 import { BzlmodVersion, Identifier, VersionPart } from './bzlmod-version';
+import { expect, describe, it } from 'vitest'
 
 describe('modules/versioning/bazel-module/bzlmod-version', () => {
   describe('Identifier', () => {

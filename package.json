@@ -16,9 +16,14 @@
     }
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
-  "keywords": ["bazel"],
+  "keywords": [
+    "bazel"
+  ],
   "author": "Chuck Grindel <chuck.grindel@gmail.com>",
-  "license": "APACHE-2.0"
+  "license": "APACHE-2.0",
+  "devDependencies": {
+    "vitest": "^0.34.2"
+  }
 }
